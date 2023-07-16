@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Code+Pro:wght@300&display=swap');
+
+.back
+{
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.back1
+{
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 230vh;
+    
+}
+.back2
+{
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+    
+}
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(223, 218, 218);
+    transition: transform 0.3s ease-in;
+    font-family: 'Fira sans',sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+padding: 45px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer {
+    
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.decpic img {
+    height: 58vh;
+}
+.devinfo{
+    font-size: 10px;
+    display: flex;
+     justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 3em;
+    
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira sans',sans-serif;
+}
+.about{font-size: 2.5em;
+}
+.moreabout{
+    font-size: 3.2em;
+    margin-top: 23px;
+    font-family: 'Fira sans',sans-serif;
+}
+.buttons{
+    margin-top:34px ;
+    font-size: 16px;
+}
+.btn{
+padding: 9px 14px;
+border-radius:22px ;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 2em;
+margin: 3px 3px;
+cursor: pointer;
+}
+.btn-sm{
+font-size: 17px;
+}
+
+.btn:hover{
+    color: dodgerblue;
+background-color: hwb(0 100% 0%);
+}
+.block{
+    text-align: center;
+}
+.contactform {
+   
+    font-family: 'Fira sans',sans-serif;
+    padding: 0 34px;
+    padding-top: 144px;
+}
+.contactform h1{
+   
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px;
+}
+.contactform form div{
+    
+    padding: 10px 0;
+   
+    flex-direction: column;
+}
+.contactform form div input{
+    
+    width: 30vw;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0;
+}
+#form-check {
+    
+flex-direction: row;
+}
+#form-check input{
+    text-align: center;
+width: 24px;
+margin: 3px 0;
+}
+.archie{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+}
+.tang{
+    margin-top: 30px;
+padding-left: 200px;
+padding-right: 50px;
+    
+}
+.tang img {
+padding-top: 10px;
+padding-left: 10px;
+padding-right:10px;
+   width: 31vh;
+    height: 35vh;
+}
+.teak{
+    margin-top: 30px;
+padding-left: 200px;
+padding-right: 50px;
+    
+}
+.teak img {
+padding-top: 10px;
+padding-left: 10px;
+padding-right:10px;
+   width: 31vh;
+    height: 35vh;
+}
+.jeet{
+    margin-top: 30px;
+padding-left: 200px;
+padding-right: 50px;
+    
+}
+.jeet img {
+padding-top: 10px;
+padding-left: 10px;
+padding-right:10px;
+   width: 31vh;
+    height: 35vh;
+}
+.yoga{
+    margin-top: 30px;
+padding-left: 200px;
+padding-right: 50px;
+    
+}
+.yoga img {
+padding-top: 0px;
+padding-right: 20px;
+padding-left: 20px;
+   width: 25vm;
+    height: 30vh;
+}
+.khel{
+    margin-top: 30px;
+padding-left: 200px;
+padding-right: 50px;
+    
+}
+.khel img {
+padding-top: 0px;
+padding-right: 20px;
+padding-left: 20px;
+   width: 25vm;
+    height: 30vh;
+}
+
+.infocontainer1{
+    background-image: url('');
+}
+
+.tit{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 500px;
+}
+.shop{
+    margin-top: 30px;
+padding-left: 100px;
+padding-right: 100px;
+    
+}
+.shop img {
+padding-top: 0px;
+padding-right: 30px;
+padding-left: 30px;
+   width: 25vm;
+    height: 30vh;
+}
+.skill{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.skills{
+    text-align: center;
+    width: 10px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+.skillcontainer{
+    padding-top: 10px;
+    margin:50px;
+    margin-left: 500px;
+
+
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+
+.hundered{
+    width: 265px;
+}
+.cross{
+    margin-left: 175x;
+}
+.fifty{
+    width: 125px;
+    background-color: blueviolet;
+}.t5{
+    width: 75px;
+    background-color: crimson;
+}
+.code{
+    margin-top: 30px;
+padding-left: 300px;
+padding-right: 50px;
+    
+}
+.code img {
+
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+   width: 15vm;
+    height: 20vh;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 185px;
+}
+@media (max-width : 1290px) {
+    *{
+        /* background-color: rgb(181, 167, 167); */
+    }
+    .decpic{
+        display: none;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+    /* .sidebar{
+        
+            transform: translate(-443px, 0 px);
+            position: absolute;
+        
+    } */
+}
+.card img{
+    
+    width: 25vmax;
+    height: 30vh;
+}
+.card {
+   
+    border: 0px solid black;
+
+}
+.vehical{
+    margin: 0 6%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-title{
+    text-align : center;
+}
+.mp{
+    
+        font-size: 50px;
+        text-align: center;
+        padding-top: 70px;
+        padding-left: 150px;
+        padding-right: 150px;
+    
+}
